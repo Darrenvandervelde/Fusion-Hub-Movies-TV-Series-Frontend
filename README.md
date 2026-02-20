@@ -84,7 +84,7 @@ Fusion-Hub-Movies-TV-Series/
    git clone https://github.com/Darrenvandervelde/Fusion-Hub-Movies-TV-Series.git
    ```
    
-2. Open the project folder
+2. `Open the project folder`
 3. Run `index.html` in your browser
 
 No additional setup is required.
