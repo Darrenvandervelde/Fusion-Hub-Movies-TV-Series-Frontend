@@ -5,9 +5,6 @@
 ![Fusion Hub Demo](ProjectImg3.png)
 
 
-Hello World
-
-
 Please click here to [view live demo](https://fusion-hub-movies-tv-series.vercel.app)
 
 ---
@@ -55,8 +52,6 @@ This project serves as a strong frontend foundation for a streaming-style platfo
 ```
 Fusion-Hub-Movies-TV-Series/
 │
-│
-│
 ├── index.html
 ├── style.css
 ├── script.js       
@@ -87,6 +82,7 @@ Fusion-Hub-Movies-TV-Series/
    ```
    
 2. `Open the project folder`
+
 3. Run `index.html` in your browser
 
 No additional setup is required.
