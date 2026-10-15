@@ -1,0 +1,10 @@
+{
+  "appName": "Fusion Hub",
+  "theme": "dark",
+  "primaryColor": "#e50914",
+  "apiBaseUrl": "",
+  "useMockData": true,
+  "itemsPerRow": 8,
+  "enableWatchlist": true,
+  "enableSearch": true
+}
