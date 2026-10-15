@@ -1,200 +1,308 @@
-/* Full screen dark background */
-/* Container split layout */
-.LoginContainer {
-  height: 100vh;
+/* ========== Login Page Layout ========== */
+.login-page {
+  min-height: 100vh;
   display: flex;
-  font-family: Arial, sans-serif;
+  background: #0a0a0a;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
 }
 
-/* LEFT SIDE (LOGIN) */
-.loginForm {
+/* ========== Left Card ========== */
+.login-card {
   flex: 1;
+  max-width: 480px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 60px;
-  background: #f4f6f8;
+  padding: 40px 48px;
+  background: #141414;
 }
 
-.loginForm input {
-  margin-bottom: 15px;
-  padding: 10px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
+.login-brand {
+  margin-bottom: 28px;
+  text-align: center;
 }
 
-.loginForm button {
-  padding: 10px;
+.login-brand h1 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #e50914;
+  letter-spacing: -1px;
+  margin-bottom: 6px;
+}
+
+.login-brand p {
+  color: #a3a3a3;
+  font-size: 0.95rem;
+}
+
+/* Error banner */
+.login-error {
+  background: rgba(229, 9, 20, 0.15);
+  border: 1px solid #e50914;
+  color: #ff6b6b;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-size: 0.85rem;
+  color: #ccc;
+  font-weight: 500;
+}
+
+.form-group input {
+  padding: 13px 14px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #1f1f1f;
+  color: #fff;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group input:focus {
+  border-color: #e50914;
+  box-shadow: 0 0 0 3px rgba(229, 9, 20, 0.25);
+}
+
+.form-group input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Password show/hide */
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper input {
+  width: 100%;
+  padding-right: 70px;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
   border: none;
-  background: #4a90e2;
-  color: white;
-  border-radius: 6px;
+  color: #e50914;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 4px 6px;
+}
+
+.toggle-password:hover {
+  text-decoration: underline;
+}
+
+/* Remember + Forgot */
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #ccc;
   cursor: pointer;
 }
 
-/* RIGHT SIDE (CHAT) */
-.chatBox {
-  flex: 1;
-  position: relative;
-  background: #0f172a;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+.remember-me input {
+  accent-color: #e50914;
+  width: 16px;
+  height: 16px;
 }
 
-/* BIG CIRCLE BACKGROUND */
-.chatBox::before {
-  content: "";
-  position: absolute;
-  width: 500px;
-  height: 500px;
-  background: #4a90e2;
-  border-radius: 50%;
-  top: -150px;
-  right: -150px;
-  z-index: 0;
-}
-
-/* Chat content above circle */
-.chatBox h3,
-.chatMessages,
-.chatInput {
-  position: relative;
-  z-index: 1;
-}
-
-/* Chat messages */
-.chatMessages {
-  width: 70%;
-  max-height: 200px;
-  overflow-y: auto;
-  margin-bottom: 20px;
-}
-
-.bot {
-  background: #1e293b;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-/* Input */
-.chatInput {
-  display: flex;
-  width: 70%;
-}
-
-.chatInput input {
-  flex: 1;
-  padding: 10px;
-  border: none;
-  border-radius: 6px 0 0 6px;
-}
-
-.chatInput button {
-  padding: 10px 15px;
-  border: none;
-  background: #4a90e2;
-  color: white;
-  border-radius: 0 6px 6px 0;
-}
-
-/* Login Card overrides for dark style */
-.LoginContainer form {
-  width: 350px;
-  padding: 40px 30px;
-  background: rgba(20, 20, 20, 0.95);
-  border-radius: 16px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-/* Title */
-.LoginContainer form::before {
-  content: "FusionHub";
-  font-size: 2rem;
-  font-weight: bold;
+.forgot-link {
   color: #e50914;
-  text-align: center;
-  margin-bottom: 10px;
+  text-decoration: none;
 }
 
-/* Subtitle */
-.LoginContainer form::after {
-  content: "Sign in to your account";
-  font-size: 0.9rem;
-  color: #aaa;
-  text-align: center;
-  margin-bottom: 10px;
+.forgot-link:hover {
+  text-decoration: underline;
 }
 
-/* Labels */
-.LoginContainer label {
-  font-size: 13px;
-  color: #ccc;
-}
-
-/* Inputs */
-.LoginContainer input {
-  padding: 12px;
-  border-radius: 8px;
+/* Submit button */
+.submit-btn {
+  margin-top: 8px;
+  padding: 14px;
   border: none;
-  background: #232323;
-  color: #fff;
-  font-size: 14px;
-  outline: none;
-  transition: 0.2s ease;
-}
-
-/* Input focus */
-.LoginContainer input:focus {
-  background: #2c2c2c;
-  box-shadow: 0 0 0 2px #e50914;
-}
-
-/* Button */
-.LoginContainer button {
-  margin-top: 10px;
-  padding: 12px;
   border-radius: 8px;
-  border: none;
   background: #e50914;
   color: #fff;
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 1rem;
+  font-weight: 700;
   cursor: pointer;
-  transition: 0.2s ease;
+  transition: background 0.2s, transform 0.1s;
 }
 
-/* Button hover */
-.LoginContainer button:hover {
+.submit-btn:hover:not(:disabled) {
   background: #b20710;
 }
 
-/* Links section */
-.login-links {
+.submit-btn:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.submit-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.btn-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.spinner {
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Toggle Login / Sign Up */
+.login-toggle {
+  margin-top: 24px;
   text-align: center;
-  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #a3a3a3;
 }
 
-/* Links */
-.login-links a {
+.login-toggle button {
+  background: none;
+  border: none;
   color: #e50914;
-  text-decoration: none;
-  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0;
 }
 
-.login-links a:hover {
+.login-toggle button:hover {
   text-decoration: underline;
 }
 
 .demo-hint {
+  margin-top: 16px;
   text-align: center;
-  font-size: 12px;
-  color: #888;
-  margin-top: 8px;
+  font-size: 0.78rem;
+  color: #666;
+}
+
+/* ========== Right decorative side ========== */
+.login-side {
+  flex: 1.2;
+  background: linear-gradient(
+      135deg,
+      rgba(229, 9, 20, 0.85) 0%,
+      rgba(10, 10, 10, 0.95) 100%
+    ),
+    url("https://image.tmdb.org/t/p/original/xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg")
+      center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  position: relative;
+}
+
+.side-content {
+  max-width: 420px;
+  color: #fff;
+  z-index: 1;
+}
+
+.side-content h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 16px;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+.side-content p {
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: #f0f0f0;
+  margin-bottom: 28px;
+}
+
+.side-features {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.side-features li {
+  font-size: 1rem;
+  padding-left: 28px;
+  position: relative;
+}
+
+.side-features li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 900px) {
+  .login-side {
+    display: none;
+  }
+
+  .login-card {
+    max-width: 100%;
+    padding: 32px 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-brand h1 {
+    font-size: 2rem;
+  }
+
+  .form-options {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
 }
