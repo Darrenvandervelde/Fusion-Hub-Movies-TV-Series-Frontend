@@ -4,10 +4,16 @@
 }
 
 .rows {
-  margin-top: -80px; /* overlap the hero a little for Netflix style */
+  margin-top: -80px;
   position: relative;
   z-index: 2;
   padding-bottom: 60px;
+}
+
+/* When filtering we don't need the hero overlap */
+.rows-filtered {
+  margin-top: 80px; /* space under fixed navbar */
+  padding-top: 20px;
 }
 
 .loading-screen {
@@ -33,4 +39,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Empty state when no search/filter results */
+.empty-state {
+  text-align: center;
+  padding: 80px 20px;
+  color: #e5e5e5;
+}
+
+.empty-state h2 {
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+}
+
+.empty-state p {
+  color: #999;
+  margin-bottom: 24px;
+}
+
+.clear-filters-btn {
+  background: #e50914;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.clear-filters-btn:hover {
+  background: #b20710;
 }
