@@ -1,0 +1,230 @@
+{
+  "trending": [
+    {
+      "id": 1,
+      "title": "Dune: Part Two",
+      "type": "movie",
+      "year": 2024,
+      "rating": 8.6,
+      "overview": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.",
+      "poster": "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg",
+      "genre": ["Sci-Fi", "Adventure"]
+    },
+    {
+      "id": 2,
+      "title": "The Batman",
+      "type": "movie",
+      "year": 2022,
+      "rating": 7.8,
+      "overview": "Batman ventures into Gotham City's underworld when a sadistic killer leaves behind a trail of cryptic clues.",
+      "poster": "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/b0PlSFdUbluCAvK9vksh8bY7Bty.jpg",
+      "genre": ["Action", "Crime", "Drama"]
+    },
+    {
+      "id": 3,
+      "title": "Stranger Things",
+      "type": "tv",
+      "year": 2016,
+      "rating": 8.7,
+      "overview": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.",
+      "poster": "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
+      "genre": ["Drama", "Fantasy", "Horror"]
+    },
+    {
+      "id": 4,
+      "title": "Oppenheimer",
+      "type": "movie",
+      "year": 2023,
+      "rating": 8.3,
+      "overview": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",
+      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
+      "genre": ["Drama", "History"]
+    },
+    {
+      "id": 5,
+      "title": "The Last of Us",
+      "type": "tv",
+      "year": 2023,
+      "rating": 8.7,
+      "overview": "After a global pandemic destroys civilization, a hardened survivor takes charge of a 14-year-old girl who may be humanity's last hope.",
+      "poster": "https://image.tmdb.org/t/p/w500/uKvVjKrxZsFgGEIxQkXgPLu2J2h.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/uDgy6hyPd82qQWcbzCZrqR3e5kG.jpg",
+      "genre": ["Drama", "Action"]
+    }
+  ],
+  "popularMovies": [
+    {
+      "id": 6,
+      "title": "Interstellar",
+      "type": "movie",
+      "year": 2014,
+      "rating": 8.7,
+      "overview": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "poster": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/xJHokMblPvK99oRBZY7L7O2mS5k.jpg",
+      "genre": ["Sci-Fi", "Drama", "Adventure"]
+    },
+    {
+      "id": 7,
+      "title": "Inception",
+      "type": "movie",
+      "year": 2010,
+      "rating": 8.8,
+      "overview": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+      "poster": "https://image.tmdb.org/t/p/w500/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/s3TBrRGB1iav7gFOCNx3H31MoES.jpg",
+      "genre": ["Action", "Sci-Fi", "Thriller"]
+    },
+    {
+      "id": 8,
+      "title": "The Dark Knight",
+      "type": "movie",
+      "year": 2008,
+      "rating": 9.0,
+      "overview": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests.",
+      "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/hkBaDkMWbLaf8B1lsWsKX7EHN9e.jpg",
+      "genre": ["Action", "Crime", "Drama"]
+    },
+    {
+      "id": 9,
+      "title": "Avatar: The Way of Water",
+      "type": "movie",
+      "year": 2022,
+      "rating": 7.6,
+      "overview": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started.",
+      "poster": "https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/s16H6tpK2utvj0hiVuv0n2X0bNq.jpg",
+      "genre": ["Sci-Fi", "Action", "Adventure"]
+    },
+    {
+      "id": 10,
+      "title": "Spider-Man: Across the Spider-Verse",
+      "type": "movie",
+      "year": 2023,
+      "rating": 8.6,
+      "overview": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.",
+      "poster": "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/4HodYYKE1604P1z0tYg0f8k8l9m.jpg",
+      "genre": ["Animation", "Action", "Adventure"]
+    },
+    {
+      "id": 11,
+      "title": "John Wick: Chapter 4",
+      "type": "movie",
+      "year": 2023,
+      "rating": 7.7,
+      "overview": "John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy.",
+      "poster": "https://image.tmdb.org/t/p/w500/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/h8gHn0OzBoaefsYseUByqsmEDMY.jpg",
+      "genre": ["Action", "Thriller", "Crime"]
+    }
+  ],
+  "popularTV": [
+    {
+      "id": 12,
+      "title": "Game of Thrones",
+      "type": "tv",
+      "year": 2011,
+      "rating": 9.2,
+      "overview": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+      "poster": "https://image.tmdb.org/t/p/w500/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/2OMB0ynKlyIenMJWI2Dy9IWT4c.jpg",
+      "genre": ["Drama", "Action", "Adventure"]
+    },
+    {
+      "id": 13,
+      "title": "Breaking Bad",
+      "type": "tv",
+      "year": 2008,
+      "rating": 9.5,
+      "overview": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine.",
+      "poster": "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/tsRy63Mu5cu8etL1X7ZLyfNJi4J.jpg",
+      "genre": ["Drama", "Crime"]
+    },
+    {
+      "id": 14,
+      "title": "The Witcher",
+      "type": "tv",
+      "year": 2019,
+      "rating": 8.0,
+      "overview": "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.",
+      "poster": "https://image.tmdb.org/t/p/w500/7vjaF7jYjAF5p2zSZy5N8z9y2y.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/jBJWaqyS4a2y0q1z7z2q8z2q8z2.jpg",
+      "genre": ["Fantasy", "Action", "Adventure"]
+    },
+    {
+      "id": 15,
+      "title": "House of the Dragon",
+      "type": "tv",
+      "year": 2022,
+      "rating": 8.4,
+      "overview": "The story of the Targaryen civil war that took place about 200 years before the events of Game of Thrones.",
+      "poster": "https://image.tmdb.org/t/p/w500/z2yahl2uefxDCl0nogcRBstwruJ.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/9zcbqSxdsRmZtM2x1E0n0q0q0q0.jpg",
+      "genre": ["Drama", "Fantasy", "Action"]
+    },
+    {
+      "id": 16,
+      "title": "Wednesday",
+      "type": "tv",
+      "year": 2022,
+      "rating": 8.1,
+      "overview": "Smart, sarcastic and a bit dead inside, Wednesday Addams investigates a murder spree while making new friends — and foes — at Nevermore Academy.",
+      "poster": "https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygcjOkZ.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/iHSwvRVsRyxpX7FE7GbviaDvgGZ.jpg",
+      "genre": ["Comedy", "Fantasy", "Mystery"]
+    }
+  ],
+  "topRated": [
+    {
+      "id": 17,
+      "title": "The Shawshank Redemption",
+      "type": "movie",
+      "year": 1994,
+      "rating": 9.3,
+      "overview": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "poster": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/kXfqcdB4H2b1q0q0q0q0q0q0q0.jpg",
+      "genre": ["Drama"]
+    },
+    {
+      "id": 8,
+      "title": "The Dark Knight",
+      "type": "movie",
+      "year": 2008,
+      "rating": 9.0,
+      "overview": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests.",
+      "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/hkBaDkMWbLaf8B1lsWsKX7EHN9e.jpg",
+      "genre": ["Action", "Crime", "Drama"]
+    },
+    {
+      "id": 13,
+      "title": "Breaking Bad",
+      "type": "tv",
+      "year": 2008,
+      "rating": 9.5,
+      "overview": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine.",
+      "poster": "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/tsRy63Mu5cu8etL1X7ZLyfNJi4J.jpg",
+      "genre": ["Drama", "Crime"]
+    },
+    {
+      "id": 18,
+      "title": "Pulp Fiction",
+      "type": "movie",
+      "year": 1994,
+      "rating": 8.9,
+      "overview": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "poster": "https://image.tmdb.org/t/p/w500/d5iIlFnq5p7G8q0q0q0q0q0q0q0.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/original/suaE2V3tJxLmsAvNTjvSRL0gGps.jpg",
+      "genre": ["Crime", "Drama"]
+    }
+  ]
+}

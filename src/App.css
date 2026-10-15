@@ -1,7 +1,29 @@
-body {
+/* Global resets & dark theme foundation */
+* {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  background: url('./assets/Background.png') center/cover no-repeat;
-  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background-color: #141414;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* Utility */
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 4%;
 }

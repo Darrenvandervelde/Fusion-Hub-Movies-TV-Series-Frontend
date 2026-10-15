@@ -1,16 +1,66 @@
-# React + Vite
+# Fusion Hub — Movies & TV Series Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern movie and TV series browsing platform inspired by popular streaming services. Built with **React + Vite**.
 
-Currently, two official plugins are available:
+## Features (current)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Clean dark theme UI
+- Login screen (mock auth)
+- Home page with Hero banner
+- Horizontal scrolling rows (Trending, Popular Movies, Popular TV, Top Rated)
+- Data driven by local **JSON** files (easy to develop and later replace with API)
+- Settings stored in JSON
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite 8
+- React Router DOM 7
+- CSS (no heavy UI library yet)
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+├── components/     # Reusable UI pieces (Navbar, Hero, MovieCard, MovieRow, Login)
+├── pages/          # Route-level pages (Home)
+├── data/           # JSON data + settings
+│   ├── media.json
+│   └── settings.json
+├── App.jsx
+├── App.css
+└── main.jsx
+```
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Open http://localhost:5173
+
+- Go to `/` → Login (any username + password works for now)
+- After login you land on `/home`
+
+## Branch Workflow
+
+We develop features on dedicated branches:
+
+- `feature/setup-and-home` ← current work
+- Future: `feature/auth-flow`, `feature/search`, `feature/detail-page`, etc.
+
+Then open a Pull Request and merge into `main`.
+
+## Next Steps
+
+1. Search & filter
+2. Detail page for each title
+3. Watchlist / My List (localStorage or API)
+4. Real authentication + backend connection
+5. TMDB API integration (optional)
+
+## License
+
+See LICENSE.txt

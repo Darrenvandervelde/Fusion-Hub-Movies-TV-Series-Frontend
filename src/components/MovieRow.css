@@ -1,0 +1,70 @@
+.movie-row {
+  margin-bottom: 36px;
+  padding: 0 4%;
+}
+
+.row-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #e5e5e5;
+}
+
+.row-container {
+  position: relative;
+}
+
+.row-posters {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 12px 0;
+  scrollbar-width: none; /* Firefox */
+}
+
+.row-posters::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  background: rgba(20, 20, 20, 0.6);
+  border: none;
+  color: white;
+  font-size: 2.5rem;
+  cursor: pointer;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.3s, background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-container:hover .scroll-btn {
+  opacity: 1;
+}
+
+.scroll-btn:hover {
+  background: rgba(20, 20, 20, 0.9);
+}
+
+.scroll-btn.left {
+  left: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.scroll-btn.right {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+@media (max-width: 768px) {
+  .scroll-btn {
+    display: none; /* touch devices can swipe */
+  }
+}

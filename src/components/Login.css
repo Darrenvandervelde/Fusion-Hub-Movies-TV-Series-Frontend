@@ -45,7 +45,7 @@
   overflow: hidden;
 }
 
-/* 🔵 BIG CIRCLE BACKGROUND */
+/* BIG CIRCLE BACKGROUND */
 .chatBox::before {
   content: "";
   position: absolute;
@@ -101,7 +101,7 @@
   border-radius: 0 6px 6px 0;
 }
 
-/* Login Card */
+/* Login Card overrides for dark style */
 .LoginContainer form {
   width: 350px;
   padding: 40px 30px;
@@ -118,7 +118,7 @@
   content: "FusionHub";
   font-size: 2rem;
   font-weight: bold;
-  color: #ff0000;
+  color: #e50914;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -153,7 +153,7 @@
 /* Input focus */
 .LoginContainer input:focus {
   background: #2c2c2c;
-  box-shadow: 0 0 0 2px #ff0000;
+  box-shadow: 0 0 0 2px #e50914;
 }
 
 /* Button */
@@ -162,7 +162,7 @@
   padding: 12px;
   border-radius: 8px;
   border: none;
-  background: #ff0000;
+  background: #e50914;
   color: #fff;
   font-size: 15px;
   font-weight: bold;
@@ -172,7 +172,7 @@
 
 /* Button hover */
 .LoginContainer button:hover {
-  background: #b30000;
+  background: #b20710;
 }
 
 /* Links section */
@@ -183,11 +183,18 @@
 
 /* Links */
 .login-links a {
-  color: #ff0000;
+  color: #e50914;
   text-decoration: none;
   font-size: 13px;
 }
 
 .login-links a:hover {
   text-decoration: underline;
+}
+
+.demo-hint {
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+  margin-top: 8px;
 }
